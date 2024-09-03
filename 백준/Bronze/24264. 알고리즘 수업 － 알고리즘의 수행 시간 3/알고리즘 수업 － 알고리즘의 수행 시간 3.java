@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        long n = sc.nextLong();
+        int n = sc.nextInt(); //수행횟수
+        long result = (long) n*n;  //수행 횟수는 n*n이므로 long
 
-        System.out.println(n*n);  // 반복문 수행횟수
+        System.out.println(result);
         System.out.println(2);  // 시간복잡도 n^2
-        sc.close();
     }
 }
