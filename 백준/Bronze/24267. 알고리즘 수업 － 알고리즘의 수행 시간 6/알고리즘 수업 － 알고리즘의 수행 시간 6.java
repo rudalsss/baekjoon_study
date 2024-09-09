@@ -18,6 +18,7 @@ public class Main {
             1 = 1
             의 총합
          */
+        /* 시그마 공식 : (n-2)*(n-1)*n/6 */
 
         System.out.println(sum);
         System.out.println(3);  // 시간복잡도 n^3
